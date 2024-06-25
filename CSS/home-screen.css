@@ -1,0 +1,49 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    column-gap: 2rem;
+}
+
+.card{
+    flex-basis: 960px;
+    border-radius: 3rem;
+    overflow: hidden;
+    color: white;
+    border: 0;
+    height: 1240px
+}
+
+.btn{
+    background-color: #19BC43;
+    border-radius: 20rem;
+    color: white;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 40px;
+    width: 450px;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    background: #19BC43;
+}
+
+.card-body{
+    padding: 5rem;
+    background-color: #006D21;
+    text-align: center;
+    padding-top: 3.5rem;
+}
+
+.card-text{
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.card-title{
+    text-align: left;
+}

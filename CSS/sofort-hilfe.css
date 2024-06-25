@@ -1,0 +1,26 @@
+.flex-container{
+    display: flex;
+    column-gap: 5rem;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    flex-basis: 600px;
+    border-radius: 3rem;
+    overflow: hidden;
+    color: white;
+    border: 0;
+    background-color: #006D21;
+}
+
+.card-title{
+    padding: 5rem;
+    text-align: center;
+}
+
+#frage{
+    text-align: center;
+    padding: 5rem;
+    font-weight: bold;
+}

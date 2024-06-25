@@ -1,0 +1,56 @@
+.content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    column-gap: 2rem;
+}
+
+header img{
+    height: 12rem;
+}
+
+.modul-preview{
+    color: white;
+    flex-basis: 650px;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.modul-beschreibung{
+    background-color: #006D21;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.btn{
+    background-color: #19BC43;
+    border-radius: 20rem;
+    color: white;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.modul-beschreibung-text{
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.img-preview{
+    height: 760px;
+    width: 100%;
+}
+
+.img-container img{
+    vertical-align: bottom;
+}
+
+.modul-beschreibung-text h1{
+    margin: 3rem;
+}
+
+.modul-beschreibung-text p{
+    margin-bottom: 4rem;
+}
