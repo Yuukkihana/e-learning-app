@@ -30,7 +30,7 @@
             sofort nützliche Heil-Tipps. Für den Lernspaß gibt’s noch genug
             Zeit, wenn du wieder fit bist! :)
           </p>
-          <a href="sofort-hilfe.html" class="btn btn-primary">Zur Sofort-Hile</a>
+          <a href="/HTML/sofort-hilfe/sofort-hilfe.html" class="btn">Zur Sofort-Hile</a>
         </div>
       </div>
     
@@ -43,14 +43,37 @@
           Beschwerden zu verinnerlichen. Spielerisch zeige ich dir, wie du
           einige Symptome bekämpfen und teilweise auch vorbeugen kannst.
         </p>
-        <a href="lernmodule.html" class="btn btn-primary">Zur den Modulen</a>
+        <a href="/HTML/lernmodule/lernmodule.html" class="btn">Zur den Modulen</a>
       </div>
     </div>
 </div>
     <!--Button to trigger Oma Modal-->
     <footer>
-      <button class="btn-footer">?</button>
+      <button class="btn-footer" data-toggle="modal" data-target="#omaModal">?</button>
     </footer>
+    <!--Oma Modal-->
+    <div class="modal fade" id="omaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3>Willkommen bei patch you app!</h3>
+            <p>Du fühlst dich nicht gut, hast seit Tagen einen Schnupfen oder Bauchschmerzen?
+              Kein Problem, ich helfe dir gerne auf dem Weg der Besserung. Mit wenigen Hausmitteln, die jede:r zuhause findet, zeige ich dir einfache Rezepte für die Heilung.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Los geht's</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script href="/JS/function.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

@@ -11,7 +11,9 @@
     overflow: hidden;
     color: white;
     border: 0;
-    height: 1240px
+    height: 1240px;
+    width: 960px;
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
 }
 
 .btn{
@@ -28,8 +30,22 @@
     margin-top: 1rem;
 }
 
+.btn:active, .btn:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
 .btn:hover{
-    background: #19BC43;
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:active:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
 }
 
 .card-body{

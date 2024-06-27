@@ -2,11 +2,21 @@ body{
     margin: 1rem;
     background-color: #F1EFEF;
     font-size: 32px;
-    margin-top: 3rem;
+    margin-top: 3rem;    
 }
 
 body h1{
     font-size: 70px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 header{
@@ -42,4 +52,9 @@ header img{
 footer{
     margin-top: 1rem;
     margin-left: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }

@@ -1,25 +1,18 @@
-.content{
+.flex-container{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     column-gap: 2rem;
 }
 
-header img{
-    height: 12rem;
-}
-
-.modul-preview{
-    color: white;
-    flex-basis: 650px;
+.card{
+    flex-basis: 660px;
     border-radius: 3rem;
     overflow: hidden;
-}
-
-.modul-beschreibung{
-    background-color: #006D21;
-    text-align: center;
-    padding-bottom: 2rem;
+    color: white;
+    border: 0;
+    height: 1240px;
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
 }
 
 .btn{
@@ -32,10 +25,26 @@ header img{
     border-width: 0;
     font-weight: bold;
     font-size: 40px;
+    width: 450px;
+    margin-top: 1rem;
 }
 
-.modul-beschreibung-text{
-    padding: 0.5rem 2rem 1rem 2rem;
+.btn:active, .btn:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:hover{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:active:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
 }
 
 .img-preview{
@@ -43,14 +52,16 @@ header img{
     width: 100%;
 }
 
-.img-container img{
-    vertical-align: bottom;
+.card-body{
+    padding: 4rem;
+    background-color: #006D21;
+    text-align: center;
+    padding-top: 3.5rem;
 }
 
-.modul-beschreibung-text h1{
-    margin: 3rem;
+.card-text{
+    text-align: left;
+    margin-top: 1.0rem;
 }
 
-.modul-beschreibung-text p{
-    margin-bottom: 4rem;
-}
+

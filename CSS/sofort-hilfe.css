@@ -2,7 +2,11 @@
     display: flex;
     column-gap: 5rem;
     justify-content: center;
-    justify-content: space-evenly;
+}
+
+#symptomen{
+ column-gap: 5rem;
+ margin-bottom: 25rem;
 }
 
 .card{
@@ -10,17 +14,66 @@
     border-radius: 3rem;
     overflow: hidden;
     color: white;
-    border: 0;
+    border-width: 0;
     background-color: #006D21;
+    height: 950px;
+    margin-bottom: 3rem;
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
+    position: relative;
+    border-color: transparent;
 }
 
 .card-title{
-    padding: 5rem;
+    padding: 3rem;
     text-align: center;
 }
 
 #frage{
     text-align: center;
-    padding: 5rem;
+    padding: 6rem;
+    padding-top: 4rem;
     font-weight: bold;
+}
+
+.card a::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.card:active, .btn:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.card:hover{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.card:active:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+#symptom{
+    flex-basis: 300px;
+    height: 566px;
+}
+
+#magen{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#kopfschmerz{
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 20px;
 }
