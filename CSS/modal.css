@@ -1,0 +1,106 @@
+.modal-container-flex{
+    display: flex;
+    column-gap: 10rem;
+    padding: 100px;
+    padding-top: 100px;
+}
+
+#card-oma{
+    height: 570px;
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
+    border-radius: 3rem 3rem 3rem 0rem;
+    overflow: hidden;
+    border: 0;
+    flex-basis: 1213px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0px;
+}
+
+#card-title-oma{
+    margin: 90px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    color: black;
+}
+
+#card-body-oma{
+    margin-left: 90px;
+    margin-right: 80px;
+    padding: 0px;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+}
+
+#oma{
+    height: 1259px;
+    margin-top: 250px;
+}
+
+.flex-btn{
+    display:flex;
+    justify-content: flex-end;
+}
+.btn-close-modal{
+    background-color: #19BC43;
+    border-radius: 20rem;
+    color: white;
+    padding: 1rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 30px;
+    width: 292px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.btn:active, .btn:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:hover{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:active:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+.my-modal{
+    background-color: rgba(0, 0, 0, 0.322);
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal.active{
+    visibility: visible;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}  
+
+.hidden{
+    display: none;
+}

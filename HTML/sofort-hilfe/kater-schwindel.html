@@ -12,6 +12,7 @@
         />
         <link rel="stylesheet" href="/CSS/style.css" />
         <link rel="stylesheet" href="/CSS/sofort-hilfe-lernkarten.css">
+        <link rel="stylesheet" href="/CSS/modal.css">
       </head>
 <body>
   <body>
@@ -26,12 +27,37 @@
       </div>
     </main>
     <footer>
-      <button class="btn-footer">?</button>
+      <button class="btn-footer btn-open-modal">?</button>
     </footer>
+    <div class="my-modal hidden">
+      <div class="modal-container-flex">
+        <div class="modal-item-flex">
+          <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
+        </div>
+        <div id="card-oma" class="modal-item-flex card">
+          <h2 class="card-title" id="card-title-oma">
+            Freut mich, dass ich dir helfen kann!
+          </h2>
+          <div class="card-body" id="card-body-oma">
+            <p class="card-text" id="card-text-oma">
+              Wenn du noch mehr über das Thema erfahren möchtest, schau doch mal
+              im Lernmodul vorbei. Und denk daran: Wenn sich dein
+              Gesundheitszustand nicht bessert, schau bei deiner Ärztin oder
+              deinem Arzt vorbei.
+            </p>
+            <div class="flex-btn">
+              <button type="button" class="btn-close-modal">Verstanden</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="/JS/function.js"></script>
 </body>
 </html>

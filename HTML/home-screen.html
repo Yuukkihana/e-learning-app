@@ -11,7 +11,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/CSS/home-screen.css" />
+    <link rel="stylesheet" href="/CSS/modal.css" />
     <link rel="stylesheet" href="/CSS/style.css" />
+    
   </head>
   <body>
     <header>
@@ -33,7 +35,7 @@
           <a href="/HTML/sofort-hilfe/sofort-hilfe.html" class="btn">Zur Sofort-Hile</a>
         </div>
       </div>
-    
+  
     <div class="card" id="lernmodule">
       <img src="/bilder/preview-bilder/lernmodule.png" alt="Lernmodule Bild"/>
       <div class="card-body">
@@ -49,31 +51,30 @@
 </div>
     <!--Button to trigger Oma Modal-->
     <footer>
-      <button class="btn-footer" data-toggle="modal" data-target="#oma">?</button>
+      <button class="btn-footer btn-open-modal">?</button>
     </footer>
     <!--Oma Modal-->
-    <div class="modal fade" id="oma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <h3>Willkommen bei patch you app!</h3>
-            <p>Du fühlst dich nicht gut, hast seit Tagen einen Schnupfen oder Bauchschmerzen?
-              Kein Problem, ich helfe dir gerne auf dem Weg der Besserung. Mit wenigen Hausmitteln, die jede:r zuhause findet, zeige ich dir einfache Rezepte für die Heilung.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Los geht's</button>
-          </div>
+    <div class="my-modal hidden">
+      <div class="modal-container-flex">
+        <div class="modal-item-flex">
+          <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
+        </div>
+        <div id="card-oma" class="modal-item-flex card" >
+          <h2 class="card-title" id="card-title-oma">Willkommen bei patch you app!</h2>
+          <div class="card-body" id="card-body-oma">
+          <p class="card-text" id="card-text-oma">
+            Du fühlst dich nicht gut, hast seit Tagen einen Schnupfen oder
+            Bauchschmerzen? Kein Problem, ich helfe dir gerne auf dem Weg der
+            Besserung. Mit wenigen Hausmitteln, die jeder zuhause findet,
+            zeige ich dir einfache Rezepte für die Heilung.
+          </p>
+          <div class="flex-btn"><button type="button" class="btn-close-modal">Los geht's</button></div>
+      </div>
         </div>
       </div>
     </div>
-    <script href="/JS/function.js"></script>
+    <div class="overlay hidden"></div>
+    <script src="/JS/function.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   </body>
 </html>
