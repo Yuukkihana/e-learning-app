@@ -13,6 +13,7 @@
   />
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/lernmodule.css">
+    <link rel="stylesheet" href="/CSS/modal.css">
   </head>
   <body>
     <header>
@@ -33,7 +34,7 @@
                   Du leidest unter Bauchschmerzen, Übelkeit oder Durchfall? Dann
                   bist du in diesem Modul richtig.
                 </p>
-                <a href="" class="btn">Modul Starten</a>
+                <a href="/HTML/lernmodule/magen/magen-text-illustrationen.html" class="btn">Modul Starten</a>
             </div>
           </div>
           <div class="card">
@@ -49,7 +50,7 @@
                   Hast du gestern zu tief ins Glas geschaut? Wir zeigen dir
                   nützliche Tipps gegen deinen Kater.
                 </p>
-                <a href="" class="btn">Modul Starten</a>
+                <a href="/HTML/lernmodule/kater/kater-text-illustrationen.html" class="btn">Modul Starten</a>
             </div>
           </div>
           <div class="card">
@@ -65,13 +66,38 @@
                   Dich plagt eine nervige Erkältung? Die Tricks in diesem Modul
                   helfen dir, sie schnell wieder los zu werden.
                 </p>
-                <a href="" class="btn">Modul Starten</a>
+                <a href="/HTML/lernmodule/erkaltung/erkaltung-text-illustrationen.html" class="btn">Modul Starten</a>
             </div>
           </div>
         </div>
     </main>
-    <footer>
-      <button class="btn-footer">?</button>
-    </footer>
+   <!--Button zum aufreufen Oma Modal-->
+   <footer>
+    <button class="btn-footer btn-open-modal">?</button>
+  </footer>
+  <!--Oma Modal-->
+  <div class="my-modal hidden">
+    <div class="modal-container-flex">
+      <div class="modal-item-flex">
+        <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
+      </div>
+      <div id="card-oma" class="modal-item-flex card">
+        <h2 class="card-title" id="card-title-oma">
+          Du möchtest wissen, worum es in diesem Kapitel geht?
+        </h2>
+        <div class="card-body" id="card-body-oma">
+          <p class="card-text" id="card-text-oma">
+            Deine Aufgabe besteht darin, das Buchkapitel aufmerksam zu lesen
+            und die wichtigsten Informationen zu verinnerlichen.
+          </p>
+          <div class="flex-btn">
+            <button type="button" class="btn-close-modal">Verstanden</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="overlay hidden"></div>
+  <script src="/JS/function.js"></script>
   </body>
 </html>

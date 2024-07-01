@@ -48,3 +48,59 @@ h1{
 #card-oma{
     height: 456px;
 }
+
+.spiel-container{
+    width: 1862px;
+    height: 1150px;
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
+    border-radius: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+#titel-spiel{
+    margin-left: 140px;
+}
+
+.btn{
+    
+    background-color: #19BC43;
+    border-radius: 20rem;
+    color: white;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn:active, .btn:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:hover{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:active:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.oma-text{
+    width: 1200px;
+}

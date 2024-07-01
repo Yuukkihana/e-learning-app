@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patch You App</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/modal.css" />
+    <link
+      rel="stylesheet"
+      href="/CSS/modul-3/erkaltung-text-illustrationen.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="/HTML/home-screen.html"
+        ><img src="/bilder/logo.png" alt="logo"
+      /></a>
+    </header>
+    <main>
+      <h1 style="font-size: 60px" id="title">Erkältung</h1>
+      <div class="flex-big-container">
+        <div class="flex-small-container">
+          <div class="row-1">
+            <div class="column-1">
+              <img
+                src="/bilder/produkten/inhalieren.png"
+                alt="Illustration von kochendes Wasser"
+                width="376px"
+              />
+            </div>
+            <div class="column-2">
+              <h2>Husten</h2>
+              <p>
+                Ein altbewährtes und wirksa-mes Heilmittel bei Husten ist
+                <b>Inhalieren</b> mit einem <b>Inhalator</b> oder einer <b>Schüssel heißem Wasser</b>
+                und einem <b>Handtuch</b> über dem Kopf.
+              </p>
+            </div>
+          </div>
+          <div class="row-2">
+            <p>
+              Die <b>warmen Wasserdämpfe befeuchten die Schleimhäute</b> und <b>lindern</b>
+              somit den <b>Hustenreiz bei</b> trockenem <b>Reizhusten</b>. Im Fall eines
+              Hustens mit Auswurf <b>löst</b> die Inhalation den <b>Schleim</b> und
+              erleichtert das Abhusten.
+            </p>
+          </div>
+          <div class="row-3">
+            <p>
+              <b>Zwiebeln</b> sind nicht nur lecker im Essen. Sie helfen dir in Form
+              eines selbst gekochten <b>Hustensafts</b> bei deiner Erkältung.
+            </p>
+            <img src="/bilder/produkten/zwiebel.png" alt="Illustration von Zwiebeln" width="759px">
+          </div>
+        </div>
+        <div class="flex-small-container">
+          <div class="row-4">
+            <div class="column-3">
+              <img
+                src="/bilder/produkten/honig.png"
+                alt="Illustration von Honig"
+                width="449px"
+              />
+            </div>
+            <div class="column-4">
+              <p>
+                Die <b>ätherischen Öle</b> und ent-haltenen <b>Schwefelverbindungen</b> in
+                der Knolle <b>töten die Keime ab</b> und wirken etwas
+                <b>entzündungshemmend</b>. In Kombination <b>mit Honig</b> kannst du den
+                ausgekochten Zwiebel-saft <b>zu einem Sirup andicken</b>.
+              </p>
+            </div>
+          </div>
+          <div class="row-5">
+            <p>
+              Der <b>Honig</b> hat ebenfalls <b>entzündungshemmende</b> Eigenschaften und legt
+              sich wie ein <b>Schutzmantel um deine Bronchien</b>.
+            </p>
+          </div>
+          <div class="row-6">
+            <div class="column-5">
+              <h2>Schnupfen</h2>
+              <p>
+                Bei einem Schnupfen ist das <b>Inhalieren</b> ebenfalls sehr hilfreich.
+                <b>Bei erwachsenen Menschen</b> können auch <b>ätherische Öle</b> – bspw.
+                <b>Menthol oder Eukalypthus</b> – helfen. Ein paar <b>Tropfen unter die
+                Nase</b> geben, dann ist sie wieder <b>frei</b>.
+              </p>
+            </div>
+            <div class="column-6">
+              <img
+                src="/bilder/produkten/ole.png"
+                alt="Illustration von Flasche mit ätherische Öle"
+                width="297px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Button zum aufreufen Oma Modal-->
+    <footer>
+      <button class="btn-footer btn-open-modal">?</button>
+    </footer>
+    <!--Oma Modal-->
+    <div class="my-modal hidden">
+      <div class="modal-container-flex">
+        <div class="modal-item-flex">
+          <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
+        </div>
+        <div id="card-oma" class="modal-item-flex card">
+          <h2 class="card-title" id="card-title-oma">
+            Du möchtest wissen, worum es in diesem Kapitel geht?
+          </h2>
+          <div class="card-body" id="card-body-oma">
+            <p class="card-text" id="card-text-oma">
+              Deine Aufgabe besteht darin, das Buchkapitel aufmerksam zu lesen
+              und die wichtigsten Informationen zu verinnerlichen.
+            </p>
+            <div class="flex-btn">
+              <button type="button" class="btn-close-modal">Verstanden</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="/JS/function.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+h1{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#title{
+    margin-left: 110px;
+}
+
+#card-oma{
+    height: 456px;
+}
+
+.flex-big-container h2{
+    font-size: 50px;
+}
+
+.flex-big-container{
+    display: flex;
+    width: 1800px;
+    height: 1070px;
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
+    border-radius: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    column-gap: 100px;
+}
+
+.flex-small-container{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.row-6{
+    display: flex;
+    column-gap: 10px;
+}
+
+.container-video{
+    width: 1862px;
+    height: 1045px;
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
+    border-radius: 3rem;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+    margin-top: 30px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#title-kater{
+    margin-left: 140px;
+}
+
+.btn{
+    
+    background-color: #19BC43;
+    border-radius: 20rem;
+    color: white;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn:active, .btn:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:hover{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn:active:focus{
+    background-color: #34583A;
+    border-width: 5px;
+    border-color: white;
+}
+
+.btn-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.oma-text{
+    width: 1200px;
+}

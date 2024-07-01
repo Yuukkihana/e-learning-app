@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patch You App</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/modal.css" />
+    <link rel="stylesheet" href="/CSS/modul-2/kater-text-illustrationen.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/HTML/home-screen.html"
+        ><img src="/bilder/logo.png" alt="logo"
+      /></a>
+    </header>
+    <main>
+      <h1 style="font-size: 60px" id="title">Kater Beschwerden</h1>
+      <div class="flex-big-container">
+        <div class="flex-small-container">
+          <div class="row-1">
+            <h2>Schwinden & Übelkeit</h2>
+            <p>
+              Sofern dir nicht zu übel ist und du in der Lage bist, etwas zu
+              essen, greif am besten zu etwas <b>Sauer-Salzigem</b>.
+            </p>
+          </div>
+          <div class="row-2">
+            <p>
+              Ideal dafür geeignet sind <b>fettreiche Fische</b> wie
+              <b>Lachs, saure Gurken, Hühnerbrühe</b> oder <b>Salzstangen</b>.
+              Enthaltene <b>Omega-3-Fettsäuren</b> und das <b>Salz</b> bringen
+              deinen <b>Elektrolyte-Haushalt</b> und damit deinen
+              <b>Kreislauf wieder in Schwung</b> und fördern den
+              <b>Alkoholabbau</b>.
+            </p>
+          </div>
+          <div class="row-3">
+            <p>
+              Falls dir zu übel ist, hilft dir frisch aufgebrühter
+              <b>Ingwertee</b>, der deinen <b>Magen</b> erst einmal
+              <b>beruhigt</b>.
+            </p>
+            <img
+              src="/bilder/produkten/ingwertee.png"
+              alt="Illustrationen von Ingwertee Zutaten"
+              width="870px"
+            />
+          </div>
+        </div>
+        <div class="flex-small-container">
+          <div class="row-4">
+            <h2>Kopfschmerzen</h2>
+            <p>
+              Dein Körper ist durch die erhöhte Alkoholzufuhr <b>dehydriert</b>.
+              Daher ist ein Tipp altbewährt und liegt quasi auf der Hand: Du
+              solltest am Tag danach <b>viel Wasser trinken</b>.
+            </p>
+          </div>
+          <div class="row-5">
+            <p>
+              Du kannst dir als Richtwert dafür den durchschnittlichen
+              Wasserbedarf eines erwachsenen Menschen nehmen.
+            </p>
+          </div>
+          <div class="row-6">
+            <div class="column-1">
+              <p>
+                Du solltest normalerweise –unabhängig von deinem Körpergewicht –
+                <b>2-3 Liter Wasser am Tag</b> trinken. Demnach ist das auch im
+                Fall eines Katers eine guter Anhaltspunkt.
+              </p>
+              <p>
+                Aber <b>Achtung! 5 Liter</b> Wasser oder mehr sind
+                <b>gesundheitsschädigend</b>.
+              </p>
+            </div>
+            <div class="column-2">
+              <img
+                src="/bilder/produkten/wasser-glass.png"
+                alt="Illustration von Glass mit Wasser"
+                width="515px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Button zum aufreufen Oma Modal-->
+    <footer>
+      <button class="btn-footer btn-open-modal">?</button>
+    </footer>
+    <!--Oma Modal-->
+    <div class="my-modal hidden">
+      <div class="modal-container-flex">
+        <div class="modal-item-flex">
+          <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
+        </div>
+        <div id="card-oma" class="modal-item-flex card">
+          <h2 class="card-title" id="card-title-oma">
+            Du möchtest wissen, worum es in diesem Kapitel geht?
+          </h2>
+          <div class="card-body" id="card-body-oma">
+            <p class="card-text" id="card-text-oma">
+              Deine Aufgabe besteht darin, das Buchkapitel aufmerksam zu lesen
+              und die wichtigsten Informationen zu verinnerlichen.
+            </p>
+            <div class="flex-btn">
+              <button type="button" class="btn-close-modal">Verstanden</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="/JS/function.js"></script>
+  </body>
+</html>
