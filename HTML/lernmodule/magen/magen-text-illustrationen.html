@@ -1,11 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patch You App</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/modal.css" />
+    <link rel="stylesheet" href="/CSS/modul-1/magen-text-illustrationen.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/HTML/home-screen.html"
+        ><img src="/bilder/logo.png" alt="logo"
+      /></a>
+    </header>
+    <main>
+      <h1 style="font-size: 60px" id="title">Magen-/ Darmbeschwerden</h1>
+      <div class="flex-big-container">
+        <div class="flex-small-container">
+          <div class="row-1">
+            <div class="column-1">
+              <img
+                width="390px"
+                src="/bilder/produkten/fenchel.png"
+                alt="Illustration vom Fenchel"
+              />
+            </div>
+            <div class="column-2">
+              <h2>Bauchschmerzen</h2>
+              <p>
+                Eine <b>Ursache</b> von Bauchschmerzen können Blähungen sein.
+                Abhilfe schaffen kann zum Bei-spiel <b>Fenchel.</b> Er enthält
+                <b>ätherische Öle</b>, die die Bewegung des Darms fördern und
+                somit die <b>Blähungen lösen.</b>
+              </p>
+            </div>
+          </div>
+          <div class="row-2">
+            <p>
+              Die Inhaltsstoffe der <b>Kamille</b> und des
+              <b>Kümmels</b> hingegen wirken <b>krampflösend</b> und
+              <b>stillen</b> somit <b>den Schmerz.</b>
+            </p>
+          </div>
+          <div class="row-3">
+            <img
+              width="777px"
+              src="/bilder/produkten/kamille.png"
+              alt="Illustration von Kamille und Kümmel"
+            />
+          </div>
+        </div>
+        <div class="flex-small-container">
+          <div class="row-4">
+            <h2>Durchfall</h2>
+            <p>
+              Obst ist nicht nur aufgrund seiner Vitamine gesund.
+              <b>Äpfel und Bananen</b> enthalten den <b>Ballaststoff Pektin</b>,
+              der bei Durchfall helfen kann. <b>Pektin quillt</b> im Darm und
+              nimmt dadurch Flüssigkeit auf – wodurch der <b>Stuhl</b> wieder
+              <b>fester</b> wird.
+            </p>
+          </div>
+          <div class="row-5">
+            <div class="column-3">
+              <p>
+                Auch <b>Karotten</b> enthalten diesen wichtigen Ballaststoff. Es
+                gibt jedoch noch einen anderen Vorteil bei diesem Gemüse. Bei
+                Magen-Darm-Erkrankungen helfen die beim Kochen der Karotten
+                entstehenden <b>Oligosaccharide</b> (Zuckermoleküle).
+              </p>
+            </div>
+            <div class="column-4">
+              <img
+                width="348px"
+                src="/bilder/produkten/banana-apfel.png"
+                alt="Illustration von Apfel und Banana"
+              />
+            </div>
+          </div>
+          <div class="row-6">
+            <div class="column-5">
+              <img
+                width="541px"
+                src="/bilder/produkten/karotten.png"
+                alt="Illustration von Karroten und kochendes Wasser"
+              />
+            </div>
+            <div class="column-6">
+              <p>
+                Sie setzen sich im Darm auf die Zellwand und
+                <b>verhindern</b> somit,
+                <b>dass erneut Keime andocken</b> können.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Button zum aufreufen Oma Modal-->
+    <footer>
+      <button class="btn-footer btn-open-modal">?</button>
+    </footer>
+    <!--Oma Modal-->
+    <div class="my-modal hidden">
+      <div class="modal-container-flex">
+        <div class="modal-item-flex">
+          <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
+        </div>
+        <div id="card-oma" class="modal-item-flex card">
+          <h2 class="card-title" id="card-title-oma">
+            Du möchtest wissen, worum es in diesem Kapitel geht?
+          </h2>
+          <div class="card-body" id="card-body-oma">
+            <p class="card-text" id="card-text-oma">
+              Deine Aufgabe besteht darin, das Buchkapitel aufmerksam zu lesen
+              und die wichtigsten Informationen zu verinnerlichen.
+            </p>
+            <div class="flex-btn">
+              <button type="button" class="btn-close-modal">Verstanden</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="/JS/function.js"></script>
+  </body>
 </html>
