@@ -1,12 +1,12 @@
 body{
-    margin: 1rem;
+    margin: 20px;
     background-color: #F1EFEF;
-    font-size: 32px;
-    margin-top: 3rem;    
+    font-size: 14px;
+    margin-top: 30px;    
 }
 
 body h1{
-    font-size: 70px;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -15,7 +15,7 @@ h3{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -34,19 +34,19 @@ main{
 }
 
 header img{
-    height: 12rem;
+    width: 137px;
 }
 
 .btn-footer{
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     font-weight: bold;
     background-color: #E89E2F;
     border-width: 0;
-    border-radius: 60rem;
-    font-size: 60px
+    border-radius: 30px;
+    font-size: 40px
 }
 
 footer{

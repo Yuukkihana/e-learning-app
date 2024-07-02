@@ -109,4 +109,9 @@ h1{
 
 .oma-text{
     width: 1200px;
+    background-color: white;
+    height: 550px;
+    padding: 50px;
+    box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
+    border-radius: 3rem;
 }
