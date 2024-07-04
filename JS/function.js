@@ -1,3 +1,4 @@
+//Oma Modal Pop Up
 const modal = document.querySelector(".my-modal");
 const overlay = document.querySelector(".overlay");
 const openModalBtn = document.querySelector(".btn-open-modal");
@@ -16,3 +17,5 @@ const closeModal = function () {
 };
 
 closeModalBtn.addEventListener("click", closeModal);
+
+//Quizz

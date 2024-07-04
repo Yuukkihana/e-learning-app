@@ -10,15 +10,19 @@
       rel="stylesheet"
       href="/CSS/modul-3/erkaltung-text-illustrationen.css"
     />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+      </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+        </style>
   </head>
   <body>
-    <header>
-      <a href="/HTML/home-screen.html"
-        ><img src="/bilder/logo.png" alt="logo"
-      /></a>
+    <header id="logo">
+      <a href="/home-screen.html"><img src="/bilder/logo.png" alt="logo"/></a>
     </header>
     <main>
-      <h1 style="font-size: 60px" id="title">Erkältung</h1>
+      <h1 style="font-size: 32px" id="title">Erkältung</h1>
       <div class="flex-big-container">
         <div class="flex-small-container">
           <div class="row-1">
@@ -26,7 +30,7 @@
               <img
                 src="/bilder/produkten/inhalieren.png"
                 alt="Illustration von kochendes Wasser"
-                width="376px"
+                width="139px"
               />
             </div>
             <div class="column-2">
@@ -51,7 +55,7 @@
               <b>Zwiebeln</b> sind nicht nur lecker im Essen. Sie helfen dir in Form
               eines selbst gekochten <b>Hustensafts</b> bei deiner Erkältung.
             </p>
-            <img src="/bilder/produkten/zwiebel.png" alt="Illustration von Zwiebeln" width="759px">
+            <img src="/bilder/produkten/zwiebel.png" alt="Illustration von Zwiebeln" width="300px">
           </div>
         </div>
         <div class="flex-small-container">
@@ -60,7 +64,7 @@
               <img
                 src="/bilder/produkten/honig.png"
                 alt="Illustration von Honig"
-                width="449px"
+                width="125px"
               />
             </div>
             <div class="column-4">
@@ -92,7 +96,7 @@
               <img
                 src="/bilder/produkten/ole.png"
                 alt="Illustration von Flasche mit ätherische Öle"
-                width="297px"
+                width="160px"
               />
             </div>
           </div>
@@ -100,7 +104,7 @@
       </div>
     </main>
     <!--Button zum aufreufen Oma Modal-->
-    <footer>
+    <footer id="footer">
       <button class="btn-footer btn-open-modal">?</button>
     </footer>
     <!--Oma Modal-->
@@ -109,7 +113,7 @@
         <div class="modal-item-flex">
           <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
         </div>
-        <div id="card-oma" class="modal-item-flex card">
+        <div id="card-oma" class="modal-item-flex card" style="height: 150px;">
           <h2 class="card-title" id="card-title-oma">
             Du möchtest wissen, worum es in diesem Kapitel geht?
           </h2>

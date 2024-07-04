@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Patch You App</title>
 
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/modul-1/magen-text-illustrationen.css">
-    <link rel="stylesheet" href="/CSS/modal.css"> 
-</head>
-<body>
-    <header>
-        <a href="/HTML/home-screen.html"
-          ><img src="/bilder/logo.png" alt="logo"
-        /></a>
-      </header>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/modul-1/magen-text-illustrationen.css" />
+    <link rel="stylesheet" href="/CSS/modal.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+      </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+        </style>
+  </head>
+  <body>
+    <header id="logo">
+      <a href="/home-screen.html"><img src="/bilder/logo.png" alt="logo"/></a>
+    </header>
     <main>
-        <h1 style="font-size: 60px" id="titel-spiel">Sammeln Spiel</h1>
-        <div class="spiel-container">
-            <img src="/bilder/placeholders/place-holder-sammel-spiel.jpg" alt="" width="1862px" height="1150px">
-        </div>
+      <h1 style="font-size: 32px" id="titel-spiel">Sammeln Spiel</h1>
+      <div class="spiel-container">
+        <img
+          src="/bilder/placeholders/place-holder-sammel-spiel.jpg"
+          alt=""
+          width="1862px"
+          height="1150px"
+        />
+      </div>
     </main>
     <footer>
-        <button class="btn-footer btn-open-modal">?</button>
-      </footer>
-      <!--Oma Modal-->
-      <div class="my-modal hidden">
-        <div class="modal-container-flex">
-          <div class="modal-item-flex">
-            <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
-          </div>
-          <div id="card-oma" class="modal-item-flex card">
-            <h2 class="card-title" id="card-title-oma">
-              Du möchtest wissen, worum es in diesem Kapitel geht?
-            </h2>
-            <div class="card-body" id="card-body-oma">
-              <p class="card-text" id="card-text-oma">
-                Deine Aufgabe besteht darin, das Buchkapitel aufmerksam zu lesen
-                und die wichtigsten Informationen zu verinnerlichen.
-              </p>
-              <div class="flex-btn">
-                <button type="button" class="btn-close-modal">Verstanden</button>
-              </div>
+      <button class="btn-footer btn-open-modal">?</button>
+    </footer>
+    <!--Oma Modal-->
+    <div class="my-modal hidden">
+      <div class="modal-container-flex">
+        <div class="modal-item-flex">
+          <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
+        </div>
+        <div id="card-oma" class="modal-item-flex card" style="height: 150px;">
+          <h2 class="card-title" id="card-title-oma">
+            Du brauchst ein paar Infos zu den Spielregeln?
+          </h2>
+          <div class="card-body" id="card-body-oma">
+            <p class="card-text" id="card-text-oma">
+              Sammle im Supermarkt so viel gesundes Essen ein wie möglich.
+              Landet zu viel Kuchen in deinem Korb, hast du leider verloren und
+              kannst das Spiel wiederholen. Viel Spaß!
+            </p>
+            <div class="flex-btn">
+              <button type="button" class="btn-close-modal">Verstanden</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="overlay hidden"></div>
-      <script src="/JS/function.js"></script>
-</body>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="/JS/function.js"></script>
+  </body>
 </html>

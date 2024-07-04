@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/modal.css" />
     <link rel="stylesheet" href="/CSS/modul-2/kater-text-illustrationen.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+      </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+        </style>
   </head>
   <body>
-    <header>
-      <a href="/HTML/home-screen.html"
-        ><img src="/bilder/logo.png" alt="logo"
-      /></a>
+    <header id="logo">
+      <a href="/home-screen.html"><img src="/bilder/logo.png" alt="logo"/></a>
     </header>
     <main>
-      <h1 style="font-size: 60px" id="title">Kater Beschwerden</h1>
+      <h1 style="font-size: 32px" id="title">Kater Beschwerden</h1>
       <div class="flex-big-container">
         <div class="flex-small-container">
           <div class="row-1">
@@ -44,7 +48,7 @@
             <img
               src="/bilder/produkten/ingwertee.png"
               alt="Illustrationen von Ingwertee Zutaten"
-              width="870px"
+              width="380px"
             />
           </div>
         </div>
@@ -79,7 +83,7 @@
               <img
                 src="/bilder/produkten/wasser-glass.png"
                 alt="Illustration von Glass mit Wasser"
-                width="515px"
+                width="192px"
               />
             </div>
           </div>
@@ -88,7 +92,7 @@
     </main>
     <!--Button zum aufreufen Oma Modal-->
     <footer>
-      <button class="btn-footer btn-open-modal">?</button>
+      <button class="btn-footer btn-open-modal" id="footer">?</button>
     </footer>
     <!--Oma Modal-->
     <div class="my-modal hidden">
@@ -96,7 +100,7 @@
         <div class="modal-item-flex">
           <img src="/bilder/Oma_neutral.png" alt="Bild vom Oma" id="oma" />
         </div>
-        <div id="card-oma" class="modal-item-flex card">
+        <div id="card-oma" class="modal-item-flex card" style="height: 140px;">
           <h2 class="card-title" id="card-title-oma">
             Du möchtest wissen, worum es in diesem Kapitel geht?
           </h2>

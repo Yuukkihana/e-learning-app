@@ -1,9 +1,10 @@
 #title{
-    margin-left: 110px;
+    margin-left: 80px;
+    margin-top: 0px;
 }
 
 .flex-big-container h2{
-    font-size: 50px;
+    font-size: 22px;
 }
 
 #card-oma{
@@ -17,25 +18,26 @@ h1{
 
 .flex-big-container{
     display: flex;
-    width: 1800px;
-    height: 1070px;
+    width: 850px;
+    height: 480px;
     box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
     border-radius: 3rem;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
     overflow: hidden;
-    padding: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
-    column-gap: 100px;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    column-gap: 70px;
 }
 
 .flex-small-container{
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
+    row-gap: 5px;
 }
 
 .row-6, .row-1, .row-4{
@@ -44,8 +46,8 @@ h1{
 }
 
 .spiel-container{
-    width: 1862px;
-    height: 1150px;
+    width: 916px;
+    height: 525px;
     box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
     border-radius: 3rem;
     margin-left: auto;
@@ -55,32 +57,34 @@ h1{
 }
 
 #titel-spiel{
-    margin-left: 140px;
+    margin-left: 90px;
+    margin-top: 0px;
 }
 
 .inhalt-container{
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
-    column-gap: 180px;
-    margin-left: 150px;
+    column-gap: 60px;
+    margin-left: 100px;
 }
 
 #text{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .btn{
     
     background-color: #19BC43;
-    border-radius: 20rem;
+    border-radius: 20px;
     color: white;
-    padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding: 10px;
     border-width: 0;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 18px;
+    width: 200px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .btn:active, .btn:focus{
@@ -102,16 +106,32 @@ h1{
 }
 
 .btn-container{
-    margin-top: 100px;
+    margin-top: 30px;
     display: flex;
     justify-content: end;
 }
 
 .oma-text{
-    width: 1200px;
+    width: 500px;
     background-color: white;
-    height: 550px;
+    height: 270px;
     padding: 50px;
     box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
     border-radius: 3rem;
+}
+
+#logo{
+    margin-bottom: 10px;
+}
+
+#footer{
+    margin-top: 30px;
+}
+
+#prevention{
+    margin-top:10px;
+}
+
+.oma-text h1{
+    margin-top:10px;
 }

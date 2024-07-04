@@ -4,40 +4,42 @@ h1{
 }
 
 .flex-big-container{
-    width: 1800px;
-    height: 1070px;
+    display: flex;
+    width: 850px;
+    height: 490px;
     box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
     border-radius: 3rem;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
     overflow: hidden;
-    padding: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
-    display: flex;
-    column-gap: 100px;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    column-gap: 70px;
 }
+
 
 /* Kontainern gleich groß machen*/
 .flex-small-container{
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 0px;
 }
 
 #title{
-    margin-left: 110px;
+    margin-left: 80px;
 }
 
 .flex-big-container h2{
-    font-size: 50px;
+    font-size: 22px;
 }
 
 .row-1,.row-5, .row-6{ 
     display: flex;
-    column-gap: 60px;
+    column-gap: 30px;
 }
 
 .column-1{
@@ -46,12 +48,12 @@ h1{
 }
 
 #card-oma{
-    height: 456px;
+    height: 150px;
 }
 
 .spiel-container{
-    width: 1862px;
-    height: 1150px;
+    width: 916px;
+    height: 525px;
     box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
     border-radius: 3rem;
     margin-left: auto;
@@ -61,7 +63,8 @@ h1{
 }
 
 #titel-spiel{
-    margin-left: 140px;
+    margin-left: 90px;
+    margin-top: 0px;
 }
 
 .btn{
@@ -101,6 +104,18 @@ h1{
     justify-content: end;
 }
 
-.oma-text{
-    width: 1200px;
+#logo{
+    margin-bottom: 10px;
+}
+
+#footer{
+    margin-top: 10px;
+}
+
+#card-title-oma{
+    margin-bottom: 30px;
+}
+
+#card-text-oma{
+    margin-bottom: 25px;
 }

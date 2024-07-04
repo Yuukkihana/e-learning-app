@@ -3,11 +3,16 @@ body{
     background-color: #F1EFEF;
     font-size: 14px;
     margin-top: 30px;    
+    font-family: "Titillium Web", sans-serif;
+}
+
+h1, h2{
+    font-family: "Luckiest Guy";
+    font-weight: normal;
 }
 
 body h1{
     font-size: 32px;
-    font-weight: bold;
 }
 
 h3{
@@ -16,7 +21,6 @@ h3{
 
 h2{
     font-size: 20px;
-    font-weight: bold;
 }
 
 header{

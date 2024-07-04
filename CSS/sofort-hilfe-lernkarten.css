@@ -2,12 +2,11 @@
     border-radius: 3rem;
     overflow: hidden;
     border: 0;
-    height: 773px;
-    width: 1500px;
+    height: 418px;
+    width: 768px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
-    margin-top: 150px;
+    margin-top: 60px;
     box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
 
 }
@@ -15,24 +14,26 @@
 .card-footer{
     background-color: #006D21;
     color: white;
-    padding: 4.5rem;
     text-align: center;
     margin: 0px;
+    padding: 40px;
+    font-size: 32px;
 }
 
 .card-title{
-    margin-top: 7rem;
-    margin-left: 10rem;
-    margin-bottom: 5rem;
+   font-size: 32px;
+   margin-left: 80px;
+   margin-top: 80px;
+   margin-bottom: 50px;
 }
 
 .card-body{
-    margin-left: 10rem;
-    margin-right: 10rem;
     padding: 0;
-    font-size: 40px;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 50px;
 }
 
 footer{
-    margin-top: 375px;
+   margin-top: 135px;
 }

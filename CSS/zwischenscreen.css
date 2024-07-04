@@ -1,0 +1,78 @@
+.btn {
+  background-color: #19bc43;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 18px;
+  width: 150px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.btn:active,
+.btn:focus {
+  background-color: #34583a;
+  border-width: 5px;
+  border-color: white;
+}
+
+.btn:hover {
+  background-color: #34583a;
+  border-width: 5px;
+  border-color: white;
+}
+
+.btn:active:focus {
+  background-color: #34583a;
+  border-width: 5px;
+  border-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inhalt-container {
+  display: flex;
+  column-gap: 5px;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: auto;
+}
+
+.oma-text {
+  box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
+  border-radius: 20px 20px 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  overflow: hidden;
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 230px;
+  width: 500px;
+}
+
+img{
+    margin-top: 70px;
+}
+
+/* body{
+    background: url(/bilder/zwischenscreen/muster.png) no-repeat center center fixed;
+    background-size: 1450px 834px;
+} */
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/bilder/zwischenscreen/muster.png);
+    background-size: 1450px 834px;
+}
+
+.btn-container{
+    display:flex;
+    justify-content: flex-end;
+}
