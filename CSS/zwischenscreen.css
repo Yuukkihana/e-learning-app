@@ -68,7 +68,7 @@ img{
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/bilder/zwischenscreen/muster.png);
+    url(../bilder/zwischenscreen/muster.png);
     background-size: 1450px 834px;
 }
 
