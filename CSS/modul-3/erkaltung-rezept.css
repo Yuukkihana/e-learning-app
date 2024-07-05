@@ -28,7 +28,7 @@ h1{
 .flex-big-container{
     display: flex;
     width: 850px;
-    height: 490px;
+    height: 500px;
     box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
     border-radius: 3rem;
     margin-left: auto;

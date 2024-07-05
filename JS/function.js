@@ -17,5 +17,3 @@ const closeModal = function () {
 };
 
 closeModalBtn.addEventListener("click", closeModal);
-
-//Quizz
