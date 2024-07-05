@@ -41,6 +41,10 @@ header img{
     width: 137px;
 }
 
+#nav{
+    width: 85px;
+}
+
 .btn-footer{
     color: white;
     width: 60px;
@@ -59,6 +63,11 @@ footer{
 }
 
 a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
     text-decoration: none;
     color: white;
 }
