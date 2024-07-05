@@ -17,3 +17,13 @@ const closeModal = function () {
 };
 
 closeModalBtn.addEventListener("click", closeModal);
+
+//for service worker script loading
+window.onload = () => {
+  'use strict';
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('/service-worker.js');
+  }
+}
