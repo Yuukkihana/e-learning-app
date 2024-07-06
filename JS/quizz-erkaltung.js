@@ -1,8 +1,10 @@
 //Quizz
+//Elementen aus HTML werden selektiert
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next");
 
+//Frafgen sind im Objekt gespeichert
 const questions = [{
     question: "Aus welcher Kombination kannst du einen Hustensirup herstellen?",
     answers: [
@@ -45,16 +47,16 @@ const questions = [{
           ]}
   ];
 
-  let currentQuestionIndex = 0;
-  let score = 0;
+  let currentQuestionIndex = 0; //variable zum aufrufen von fragen
+  let score = 0; 
 
-  function showQuestion(question){
+  function showQuestion(question){ //fragen generieren
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNumber = currentQuestionIndex + 1;
     questionElement.innerHTML = currentQuestion.question;
 
-    currentQuestion.answers.forEach(answer =>  {
+    currentQuestion.answers.forEach(answer =>  { //buttons zum antworten generieren
       const button = document.createElement("button");
       button.innerHTML = answer.text;
       button.classList.add("btns");
@@ -66,7 +68,7 @@ const questions = [{
     });
   }
 
-  function startQuiz(){
+  function startQuiz(){ //wird aufgerufen wenn man die seite offnet
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Nächste Frage";
@@ -80,7 +82,7 @@ function resetState(){
   }
 }
 
-function selectAnswer(e){
+function selectAnswer(e){ //funktion zum evaluierung der gegebene antwort vom user
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true"; //kontrolliert ob dataset ist true
   if(isCorrect){
@@ -97,14 +99,14 @@ function selectAnswer(e){
   nextButton.style.display = "block";
 }
 
-function showScore(){
+function showScore(){ //funktion zeigt ergebnis am ende
   resetState();
   questionElement.innerHTML = `Du hast ${score} von ${questions.length} Fragen richtig beantwortet!`
   nextButton.innerHTML = "Nochmal";
   nextButton.style.display = "block";
 }
 
-function handleNextButton(){
+function handleNextButton(){  //je nachdem ob es mehr fragen gibt, wird hier der score oder frage gezeigt 
   currentQuestionIndex++;
   if(currentQuestionIndex < questions.length){
     showQuestion();
@@ -113,7 +115,7 @@ function handleNextButton(){
   }
 }
 
-nextButton.addEventListener("click", ()=>{
+nextButton.addEventListener("click", ()=>{ //button um zu der nachste frage zu gehen
   if(currentQuestionIndex < questions.length){
     handleNextButton();
   } else {

@@ -1,22 +1,23 @@
 //Oma Modal Pop Up
+//Elementen aus HTML selektieren
 const modal = document.querySelector(".my-modal");
 const overlay = document.querySelector(".overlay");
 const openModalBtn = document.querySelector(".btn-open-modal");
 const closeModalBtn = document.querySelector(".btn-close-modal");
 
-const openModal = function () {
+const openModal = function () { //Pop up wird gezeigt wenn hidden class ist entfernt
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
 };
 
-openModalBtn.addEventListener("click", openModal);
+openModalBtn.addEventListener("click", openModal); //Erstellung von EventListener zum öffnen des Modals
 
-const closeModal = function () {
+const closeModal = function () { //funktion zum schließen - gibt hidden class
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
 };
 
-closeModalBtn.addEventListener("click", closeModal);
+closeModalBtn.addEventListener("click", closeModal); //event listener zum schließen
 
 //for service worker script loading
 const registerServiceWorker = async () => {
