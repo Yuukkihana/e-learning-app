@@ -19,7 +19,7 @@ h1{
 .flex-big-container{
     display: flex;
     width: 850px;
-    height: 480px;
+    height: 490px;
     box-shadow: 10px 16px 16px rgba(0, 0, 0, 0.322);
     border-radius: 3rem;
     margin-left: auto;
@@ -125,7 +125,7 @@ h1{
 }
 
 #footer{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #prevention{
