@@ -2,8 +2,8 @@
     "name": "Patch You App",
     "short_name": "PYA",
     "icons": [{
-    "src": "../bilder/app-store.png",
-      "sizes": "512x512"
+    "src": "../bilder/app-icon.png",
+      "sizes": "669x669"
     }],
     "lang": "de",
     "start_url": "../home-screen.html",
