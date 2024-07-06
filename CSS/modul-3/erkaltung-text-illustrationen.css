@@ -27,7 +27,7 @@ h1{
     background-color: white;
     overflow: hidden;
     padding: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
     column-gap: 70px;
@@ -125,7 +125,7 @@ h1{
 }
 
 #footer{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 #prevention{
