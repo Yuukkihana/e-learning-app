@@ -4,7 +4,7 @@ var preLoad = function(){
     console.log("caching index and important routes");
     return cache.addAll([
     '/',
-    '/home-screen.html',
+    '/index.html',
     '/CSS/style.css',
     '/function.js',
     '/sw.js',
