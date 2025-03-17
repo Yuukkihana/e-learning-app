@@ -1,4 +1,4 @@
-#E-Learning App
+# E-Learning App
 
 I coded this app for a group semester project in the subject "E-learning", which is part of my Bachelor Degree "Digital Media" at the University of Applied Sciences Ulm.
 
